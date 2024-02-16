@@ -21,4 +21,4 @@ def main_x():
 @app.route("/docs")
 
 def docs_y():
-    return render_template("doc.html")
+    return render_template("docs.html")
