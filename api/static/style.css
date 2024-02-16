@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(57, 139, 211);
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: red;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
